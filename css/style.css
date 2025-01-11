@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     background-color: #F5F5F5;
+    /* margin-bottom: 80px; */
 }
 
 
@@ -710,3 +711,100 @@ body {
 
 
     /* Donate section end */
+
+
+    /* Newslatter section start */
+
+
+.newslater-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.newslater-content {
+    width: 1280px;
+    height: 395px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64;
+    padding: 60px;
+
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.newslater-title {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.newslater-de {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+padding: 0 200px;
+}
+
+.boxes {
+    display: flex;
+}
+
+#newsleter-bar {
+width: 600px;
+height: 55px;
+border-radius: 8px 0px 0px 8px;
+border: none;
+background: rgb(255, 255, 255);
+}
+
+.newsleter-btn {
+    text-decoration: none;
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px;
+    background: rgb(0, 106, 80);
+}
+.boxes a {
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.newslater-paragraph {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 25px;
+}
+
+
+    /* Newslatter section end */
+
+    /* Foooter section start */
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        
+        background-color: #fff;
+    }
+
+    /* Foooter section end */
