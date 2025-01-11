@@ -7,7 +7,7 @@
 
 main {
     background-color: #F5F5F5;
-    /* margin-bottom: 80px; */
+    margin-bottom: 80px;
 }
 
 
@@ -720,6 +720,7 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .newslater-content {
@@ -806,5 +807,33 @@ margin-top: 25px;
         
         background-color: #fff;
     }
+
+    .footer-content h2 {
+        color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+    }
+.line {
+    width: 1122px;
+    height: 2px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+    .footer-content {
+        display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+    }
+.social-images {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
 
     /* Foooter section end */
