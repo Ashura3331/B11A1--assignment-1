@@ -6,7 +6,7 @@
 }
 
 
-
+/* Header part start */
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -39,6 +39,11 @@
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
 }
+
+/* Header part End */
+
+
+/* Main or hero Section start */
 .btn-explore {
     width: 270px;
     height: 56px;
@@ -57,7 +62,8 @@
 }
 .main-section {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 80px;
 }
 .hero{
     width: 1280px;
@@ -91,3 +97,53 @@
     letter-spacing: 3px;
     text-align: left;
 }
+
+/* Main or Hero section End */
+
+
+
+/* Start of Pillar section */
+.pillars-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.all-details {
+    width: 1280px;
+}
+
+.pillar-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.boxes {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 302px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    }
+
+
+
+/* End of Pillar section */
