@@ -38,7 +38,22 @@
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+}
+.btn-explore {
+    width: 270px;
+    height: 56px;
+    color: #fff;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px;
+    margin-top: 24px;
+
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
 }
 .main-section {
     display: flex;
@@ -73,6 +88,6 @@
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
-    letter-spacing: 0%;
+    letter-spacing: 3px;
     text-align: left;
 }
