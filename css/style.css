@@ -312,8 +312,7 @@ main {
     }
     .description-content {
         width: 1280px;
-        
-        
+    
     }
 
     .description-details {
@@ -345,6 +344,8 @@ main {
     text-align: left;
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
+   
+    
     }
     
      
